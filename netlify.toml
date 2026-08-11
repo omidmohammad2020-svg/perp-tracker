@@ -1,9 +1,0 @@
-[build]
-  publish = "."
-  functions = "functions"
-
-[functions."check-signals"]
-  schedule = "*/5 * * * *"
-
-[functions."check-forex"]
-  schedule = "*/20 * * * *"
